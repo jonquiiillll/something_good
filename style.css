@@ -1,0 +1,161 @@
+body {
+    background-color: black;
+}
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.line_first {
+    width: 100%;
+    height: 3px;
+    background-color: white;
+}
+.line_second {
+    width: 3px;
+    height: 98%;
+    background-color: white;
+}
+.line_first_right {
+    width: 3px;
+    height: 100%;
+    float: right;
+    background-color: white;
+}
+.line_second_right {
+    width: 100%;
+    height: 3px;
+    background-color: white;
+}
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.container2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-self: flex-end;
+    justify-content: space-between;
+}
+.container_center {
+    width: 100%;
+    height: 60%;
+    display: flex;
+}
+.box {
+    border-left: 3px solid white;
+    border-top: 3px solid white;
+    margin: 10px;
+    width: 20%;
+    height: 162px;
+    /*background-color: deeppink;*/
+}
+.box2 {
+    border-top: 3px solid white;
+    border-right: 3px solid white ;
+    margin: 10px;
+    width: 20%;
+    height: 162px;
+    /*background-color: deeppink;*/
+}
+.box_bottom {
+    border-bottom: 3px solid white;
+    border-left: 3px solid white;
+    display: flex;
+    margin: 10px;
+    width: 20%;
+    height: 162px;
+    /*background-color: deeppink;*/
+}
+.box_bottom2 {
+    border-bottom: 3px solid white;
+    display: flex;
+    border-right: 3px solid white;
+    justify-content: space-between;
+    margin: 10px;
+    width: 20%;
+    height: 162px;
+    /*background-color: deeppink;*/
+}
+.container_content {
+    height: 97vh;
+   flex-wrap: wrap;
+    align-self: flex-end;
+    width: 100%;
+    display: flex;
+}
+.line_bottom_left_first {
+    width: 3px;
+    height: 100%;
+    background-color: white;
+}
+.line_bottom_left_second {
+    align-self: flex-end;
+    width: 100%;
+    height: 3px;
+    background-color: white;
+}
+.line_bottom_right_first {
+    width: 3px;
+    justify-content: space-between;
+    height: 100%;
+    float: left;
+    background-color: white;
+}
+.line {
+    height: 100%;
+    width: 3px;
+    background-color: white;
+    right: 0;
+    opacity: 0;
+    display: flex;
+}
+.line2 {
+    height: 100%;
+    width: 3px;
+    background-color: white;
+    right: 0;
+    display: flex;
+
+}
+.line_bottom {
+    position: absolute;
+    width: auto;
+    height: 3px;
+    background-color: white;
+    align-self: flex-end;
+}
+.line_bottom_right_second {
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    display: flex;
+    align-self: flex-end;
+}
+.time_animation {
+    position: absolute;
+    width: 100px;
+    height: 60px;
+    background-color: white;
+    align-self: flex-end;
+    margin: 20px;
+}
+.button_of_record {
+    width: 100px;
+    margin: 20px;
+    position: absolute;
+    height: 50px;
+    background-color: white;
+}
+.button_photo {
+    width: 60px;
+    margin: 10px;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    align-self: flex-end;
+
+}
